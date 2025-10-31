@@ -100,7 +100,7 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
-<h3>Sample Input</h3>
+<h3>Output</h3>
 <img width="1358" height="572" alt="image" src="https://github.com/user-attachments/assets/625585b7-f6cf-4c8b-8731-c67ec66f1c86" />
 
 <h3>Sample Input</h3>
