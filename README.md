@@ -71,8 +71,7 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <hr>
 <h3>Program</h3>
 
-```python
-from collections import deque
+```from collections import deque
 from collections import defaultdict
 def bfs(graph,start,visited,path):
     queue = deque()
@@ -101,6 +100,9 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
+<h3>Sample Input</h3>
+<img width="1358" height="572" alt="image" src="https://github.com/user-attachments/assets/625585b7-f6cf-4c8b-8731-c67ec66f1c86" />
+
 <h3>Sample Input</h3>
 <hr>
 7 9 <BR>
